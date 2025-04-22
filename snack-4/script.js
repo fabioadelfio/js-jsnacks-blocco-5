@@ -10,6 +10,6 @@ const posts = [
 
 const authors = posts.map((post) => {
   return post.author;
-});
+})
 
 console.log(authors);
